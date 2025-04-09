@@ -161,11 +161,9 @@ def main():
         vl_model=vl_model,
         vl_processor=vl_processor
     )
-    
 
     # Document paths
-   
-    document_paths = "/home/prasanta/colqwen/data/"
+    document_paths = "/home/change_to_your_path/colqwen/data/"
     num_indexed = visual_rag.index_documents(document_paths)
     print(f"Indexed {num_indexed} documents")
     
