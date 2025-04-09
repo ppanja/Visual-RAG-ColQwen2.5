@@ -1,0 +1,8 @@
+transformers==4.51.1
+torchvision
+accelerate
+git+https://github.com/illuin-tech/colpali.git
+qwen-vl-utils[decord]==0.0.8
+numpy
+pillow
+matplotlib
